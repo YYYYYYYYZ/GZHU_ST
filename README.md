@@ -1,5 +1,5 @@
-# 社团入会
-## 需要库
+# 社团入会——本程序仅是学习记录，仅用于学习作用
+## 依赖库
 import sys  
 import requests  
 import random  
@@ -16,3 +16,8 @@ assId=''
 .  
 .  
 .  
+## 输出文件作用
+join_num.txt 已加入的学号  
+fail_find_num.txt 未找到的学号  
+fail_find_phone.txt 无手机号码的学号——可以加入社团，但是手机号栏为空  
+upper_limit.txt 加入社团超出上限的学号
